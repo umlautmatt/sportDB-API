@@ -1,0 +1,53 @@
+.body {
+    margin: 0;
+padding: 0;
+border: 2px solid
+}
+.basketball {
+    /* padding: 0px 300px 20px 250px; */
+    /* float: left; */
+    background-color: aqua
+}
+
+#soccer {
+    text-align: center;
+}
+
+#football {
+    float: right;
+    /* padding: 0px 0px 700px 0px; */
+    /* top: 200px; */
+}
+
+.header {
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px;
+    background-color: blue;
+    padding-bottom: 5px;
+    padding-top: 3px;
+}
+
+.wrapper {
+    font-family: 'Baloo Thambi', cursive;
+    padding-bottom: 5px;
+}
+
+.form {
+    font-family: 'Baloo Thambi', cursive;
+    font-size: 40px;
+    text-align: center;
+}
+
+.submit {
+    padding: 14px 40px;
+    background-color: blue;
+    font-size: 40px;
+    font-family: 'Baloo Thambi', cursive;
+
+}
+
+.results {
+    background-image: URL(../4-sportDB/img/field-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

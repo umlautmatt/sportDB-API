@@ -6,35 +6,52 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Team Search!</title>
     <link href="sport.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Thambi|Indie+Flower" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 </head>
-<body>
-    <header>
-        <h2>Search your favorite sports team </h2>
+<body class="body">
+    <header class="header">
+        <h1><center>Search your city's professional sports teams!</center></h1>
     </header>
+    <div class="basketball">
+        <i class="fas fa-basketball-ball fa-spin fa-10x"></i>
+        <div id="football">         
+            <i class="fas fa-football-ball fa-spin fa-10x"></i>
+        </div>
+        <div id="soccer">
+            <i class="far fa-futbol fa-pulse fa-10x"></i>
+        </div>
+    </div>  
+    <!-- <div id="soccer">
+        <i class="far fa-futbol fa-pulse fa-10x"></i>
+    </div> -->
+     <!-- <div id="football">         
+        <i class="fas fa-football-ball fa-spin fa-10x"></i>
+    </div> -->
+
     <div class="wrapper">
         <div class="controls">
-            <form>
-               
+            <form class="form">
+                
                 <p>
-                    <label for="city">Input city of your team:</label>
+                    <label for="city">Input city or state of your team:</label>
                     <input type="text" id="city" class="city" required>
                 </p>
-                <p>
-                     <label for="name">Enter your team name: </label>
-                    <input type="text" id="name" class="name" required>
-                </p>
+
                 <p>
                     <button class="submit">Submit</button> 
                 </p>                                         <!-- clicking button here triggers entire form inputs -->
             </form>
+            
         </div>
 
         <div class="results">
-            <ul>
+            <section>
                 
 
 
-            </ul>
+            </section>
 
         </div>
      </div>
