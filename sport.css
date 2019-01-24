@@ -52,7 +52,7 @@ padding: 0;
 }
 
 .results {
-    background-image: URL(../4-sportDB/img/field-background.jpg);
+    background-image: URL(./img/field-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
